@@ -243,6 +243,31 @@
             }
             
         </script>
+        
+        <script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.14.0/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.14.0/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyARvJ5bn-Qd-JQZSHswOn9oTCJdRi7KnJs",
+    authDomain: "farmart-e3cf9.firebaseapp.com",
+    projectId: "farmart-e3cf9",
+    storageBucket: "farmart-e3cf9.appspot.com",
+    messagingSenderId: "811996919501",
+    appId: "1:811996919501:web:f09dfdca0371cca5555b84",
+    measurementId: "G-1KR9VBPDYZ"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
+        
     </body>
 
 </html>
